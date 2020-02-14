@@ -1,0 +1,135 @@
+/*Header*/
+.logo img {
+	width: 95px;
+}
+.nav-ul{
+	display: flex;
+}
+.navigation-li{
+	margin-right: 15px;
+	height: 27px;
+}
+.navigation-li:last-child {
+	margin-right: 0;
+}
+.big {
+	text-transform: uppercase;
+}
+
+/*Base classes*/
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 52px;
+}
+
+.p-relative {
+	position: relative;
+}
+
+/*Banner-section*/
+		/*.blue-bg {
+			padding: 15px 0;
+		}*/
+.banner-wraper img{
+	width: 100%;
+    height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*.banner-wraper {
+	position: absolute;
+}*/
+.white-box {
+	position: absolute;
+	right: 47px;
+	bottom: 0px;
+	background-color: #fff;
+	width: 500px;
+	height: 228px;
+	border: 1px solid #000;
+}
+.text-h2 {
+	color: #707070;
+	font-size: 22px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.text-p1 {
+	color: #707070;
+	font-size: 18px;
+	margin-left: 20px;
+    line-height: 24px;
+}
+.readmore {
+	color: #707070;
+	font-size: 18px;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+/*Popular Section*/
+.popular-h2 {
+	color: #707070;
+	font-size: 22px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.popular-h3 {
+	color: #707070;
+	font-size: 18px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.popular-p {
+	color: #707070;
+	font-size: 15px;
+	margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.section-wraper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.section-box img {
+	width: 100%;
+}
+.section-box {
+	margin-right: 10px;
+	box-shadow: 0 0 10px grey;
+}
+.section-box:last-child{
+	margin-right: 0;
+}
+.more {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+/*Footer*/
+.social {
+    padding: 50px 0;
+    display: inline-block;
+}
+.footer-div {
+	background-color: #2E2E2E;
+}
+.contact {
+	color: #fff;
+}
